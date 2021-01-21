@@ -1,0 +1,546 @@
+
+/* Responsive for all devices including 375px,768px */
+
+/* 1.0 - Header Area */
+
+@media (max-width: 950px)
+{
+    /* 1.2 - menu */
+    .menu
+    {
+        display: block;
+    }
+    .menu nav ul li
+    {
+        margin-left: 2.5rem;
+    }
+}
+@media (max-width: 800px)
+{
+    /* 1.2 - menu */
+    .menu
+    {
+        display: block;
+    }
+    .menu nav ul li
+    {
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 768px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    /* Toggle menu button for small devices */
+    #button
+    {
+        display: block;
+        float: right;
+        margin-right: 5rem;
+        margin-top: 1rem;
+    }
+    /* 1.1 - logo */
+    .logo
+    {
+        width: 30%;
+        margin-left: 5rem;
+    }
+    /* 1.2 - menu */
+    .menu
+    {
+        width: 100%;
+        float: none;
+    }
+    .menu nav
+    {
+        display: none;
+        z-index: 100;
+    }
+    .menu nav ul
+    {
+        background: #111111;
+        text-align: center;
+    }
+    .menu nav ul li
+    {
+        float: none;
+        margin-left: 0;
+    }
+    .menu nav ul li a
+    {
+        width: 100%;
+        padding: 0.3rem;
+        display: block;
+    }
+    .menu nav ul li a:hover
+    {
+        background: #ffffff;
+        color: #111111;
+    }
+    /* 1.3 - button */
+    .btn
+    {
+        display: none;
+    }
+}
+@media (max-width: 375px)
+{
+    /* Toggle menu button for small devices */
+    #button
+    {
+        margin-right: 1rem;
+    }
+}
+
+/* 1.0 - Header Area */
+
+/* 2.0 - Service Area */
+
+/* 2.2 - card */
+@media (max-width: 1260px)
+{
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 25%;
+    }
+}
+@media (max-width: 1208px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 24%;
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 24%;
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 24%;
+    }
+}
+@media (max-width: 1079px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 23%;
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 23%;
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 23%;
+    }
+}
+@media (max-width: 974px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 22%;
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 22%;
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 22%;
+    }
+}
+@media (max-width: 888px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 20%;
+        margin-right: 3.5rem;        
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 20%;
+        margin-right: 3.5rem; 
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 20%;
+    }
+}
+@media (max-width: 844px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        margin-right: 3rem;        
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        margin-right: 3rem; 
+    }
+}
+@media (max-width: 799px)
+{
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        margin-right: 2.5rem;        
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        margin-right: 2.5rem; 
+    }
+}
+@media (max-width: 768px)
+{
+    .container-service
+    {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 80%;
+        margin-bottom: 2rem;
+        margin-right: 0; 
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 80%;
+        margin-bottom: 2rem;
+        margin-right: 0; 
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 80%;
+    }
+}
+@media (max-width: 425px)
+{
+    
+    /* 2.2.0 - card1 */
+    .card1
+    {
+        width: 80%;
+    }
+    /* 2.2.1 - card2 */
+    .card2
+    {
+        width: 80%; 
+    }
+    /* 2.2.2 - card3 */
+    .card3
+    {
+        width: 80%;
+    }
+}
+
+/* 2.0 - Service Area */
+
+/* 3.0 - Portfolio Area */
+
+@media (max-width: 1137px)
+{
+    /* 3.2.0 - portfolio-card1 */
+    .portfolio-card1
+    {
+        width: 29%;
+    }
+    /* 3.2.0 - portfolio-card2 */
+    .portfolio-card2
+    {
+        width: 29%;
+    }
+    /* 3.2.0 - portfolio-card3 */
+    .portfolio-card3
+    {
+        width: 29%;
+    }
+}
+@media (max-width: 874px)
+{
+    /* 3.2.0 - portfolio-card1 */
+    .portfolio-card1
+    {
+        width: 28%;
+    }
+    /* 3.2.0 - portfolio-card2 */
+    .portfolio-card2
+    {
+        width: 28%;
+    }
+    /* 3.2.0 - portfolio-card3 */
+    .portfolio-card3
+    {
+        width: 28%;
+    }
+}
+@media (max-width: 768px)
+{
+    .container-portfolio
+    {
+        width: 70%;
+    }
+    /* 3.2.0 - portfolio-card1 */
+    .portfolio-card1
+    {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    /* 3.2.0 - portfolio-card2 */
+    .portfolio-card2
+    {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    /* 3.2.0 - portfolio-card3 */
+    .portfolio-card3
+    {
+        width: 100%;
+    }
+}
+
+/* 3.0 - Portfolio Area */
+
+/* 4.0 - Hire me */
+
+@media (max-width: 1184px)
+{
+    .left
+    {
+        width: 70%;
+    }
+    .right a
+    {
+        font-size: 1rem;
+    }
+    .right p
+    {
+        font-size: 1rem;        
+    }
+}
+@media (max-width: 1150px)
+{
+    .left
+    {
+        width: 65%;
+        margin-right: 7rem;
+    }
+    .right a
+    {
+        font-size: 0.8rem;
+    }
+    .right p
+    {
+        font-size: 0.8rem;        
+    }
+}
+@media (max-width: 900px)
+{
+    .left
+    {
+        width: 100%;
+    }
+    .right
+    {
+        width: 20%;
+    }
+    .right a
+    {
+        font-size: 0.8rem;
+    }
+    .right p
+    {
+        padding: 0.8rem 0.5rem;
+        font-size: 0.8rem;        
+    }
+}
+@media (max-width: 875px)
+{
+    .right
+    {
+        width: 20%;
+    }
+    .right a
+    {
+        font-size: 0.8rem;
+    }
+    .right p
+    {
+        padding: 0.5rem;
+        font-size: 0.8rem;        
+    }
+}
+@media (max-width: 768px)
+{
+    .container-hire
+    {
+        width: 80%;
+    }
+    .right
+    {
+        width: 27%;
+    }
+}
+@media (max-width: 684px)
+{
+    .right
+    {
+        width: 30%;
+    }
+}
+@media (max-width: 595px)
+{
+    .right
+    {
+        width: 35%;
+    }
+}
+@media (max-width: 495px)
+{
+    .right
+    {
+        width: 40%;
+    }
+}
+@media (max-width: 440px)
+{
+    .right
+    {
+        width: 45%;
+    }
+}
+@media (max-width: 410px)
+{
+    .right
+    {
+        width: 50%;
+    }
+}
+
+/* 4.0 - Hire me */
+
+/* 5.0 - Contact Area */
+
+@media (max-width: 1121px)
+{
+    /* 5.2.0 - left contact */
+    .left-contact
+    {
+        width: 40%;
+        margin-right: 4.5rem;
+        padding-right: 6.5rem;
+    }
+    /* 5.2.0 - right contact */
+    .right-contact
+    {
+        width: 40%;
+    }
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 1.6rem;
+    }
+}
+@media (max-width: 1005px)
+{
+    /* 5.2.0 - left contact */
+    .left-contact
+    {
+        width: 39%;
+        margin-right: 6.5rem;
+    }
+    /* 5.2.0 - right contact */
+    .right-contact
+    {
+        width: 35%;
+    }
+    /* iframe */
+    iframe
+    {
+        width: 300px;
+        height: 300px;
+    }
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 950px)
+{
+    /* 5.2.0 - left contact */
+    .left-contact
+    {
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+        margin-bottom: 5rem;
+    }
+    /* 5.2.0 - right contact */
+    .right-contact
+    {
+        width: 100%;
+    }
+    /* iframe */
+    iframe
+    {
+        width: 100%;
+        height: 400px;
+    }
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 8rem;
+    }
+}
+@media (max-width: 768px)
+{
+    .container-contact
+    {
+        width: 80%;
+    }
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 425px)
+{
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 1.5rem;
+    }
+}
+@media (max-width: 375px)
+{
+    /* submit button */
+    input[type=submit]
+    {
+        margin-right: 1rem;
+    }
+}
+
+/* 5.0 - Contact Area */

@@ -1,0 +1,642 @@
+/*
+	INDEX:
+        1.0 - Header Area
+            * 1.1 - logo
+            - Toggle menu button for small devices
+            * 1.2 - menu
+            * 1.3 - button
+            * 1.4 - about
+        2.0 - Service Area
+            * 2.1 - heading
+            * 2.2 - card
+                * 2.2.0 - card1
+                * 2.2.1 - card2
+                * 2.2.2 - card3
+        3.0 - Portfolio Area
+            * 3.1 - heading
+            * 3.2 - portfolio-card
+                * 3.2.0 - portfolio-card1
+                * 3.2.1 - portfolio-card2
+                * 3.2.2 - portfolio-card3
+        4.0 - Hire me
+        5.0 - Contact Area
+            * 5.1 - heading
+            * 5.2 - main contact
+                * 5.2.0 - left contact
+                * 5.2.1 - right contact
+                    * 5.2.1.0 - contact form
+                        * 5.2.1.0.0 - form
+                        - firstname
+                        - lastname
+                        - email address
+                        - submit button
+        6.0 - Footer Area
+            * 6.1 - get in touch
+            * 6.2 - copyright
+        7.0 - Scroll To Top Button
+*/
+
+/* Typography */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* 1.0 - Header Area */
+
+header
+{
+    background: url(img/backgroundimage.png) no-repeat center;
+    background-size: cover;
+    height: 35.5rem;
+}
+.header-head
+{
+    background: #111111;
+    height: 3rem;
+}
+/* 1.1 - logo */
+.logo
+{
+    width: 25%;
+    float: left;
+    margin-top: 0.1rem;
+}
+.logo a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.logo a:hover
+{
+    color: #b3b5b3;
+    font-size: 2.1rem;
+    transition: 0.3s;
+}
+/* Toggle menu button for small devices */
+#button
+{
+    display: none;
+    margin-top: 0.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* 1.2 - menu */
+.menu
+{
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.6rem;
+}
+.menu nav ul li
+{
+    float: left;
+    list-style: none;
+    margin-left: 3.5rem;
+}
+.menu nav ul li a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.menu nav ul li a:hover
+{
+    color: #b3b5b3;
+    transition: 0.3s;
+}
+/* sticky navbar with javascript */
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+/* 1.3 - button */
+.btn
+{
+    width: 15%;
+    overflow: hidden;
+}
+.btn button
+{
+    margin-top: 0.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 0.3rem 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn button:hover
+{
+    color: #111111;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+/* 1.4 - about */
+.about
+{
+    margin-top: 6rem;
+    margin-right: 5rem;
+    padding: 3rem;
+    float: right;
+    width: 40%;
+    background-color: #ffffff94;
+}
+.about-head
+{
+    color: #111111;
+    font-weight: bold;
+}
+.about-btn
+{
+    margin-top: 1rem;
+    font-weight: 800;
+    color: #111111;
+    background-color: transparent;
+    padding: 0.3rem 1rem;
+    border: 1px solid #111111;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.about-btn:hover
+{
+    color: #ffffff;
+    background-color: #111111;
+    transition: 0.5s;
+}
+
+/* 1.0 - Header Area */
+
+/* 2.0 - Service Area */
+
+.service-section
+{
+    width: 100%;
+}
+/* 2.1 - heading */
+.service-heading
+{
+    padding-top: 10rem;
+    text-align: center;
+}
+.service-heading h2
+{
+    font-size: 2rem;
+    font-weight: 900;
+}
+/* 2.2 - card */
+.card
+{
+    margin-bottom: 5rem;
+}
+/* 2.2.0 - card1 */
+.card1
+{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 4rem 2rem;
+    margin-right: 2.5rem;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.card1:hover
+{
+    background-color: #1769FF;
+    color: #ffffff;
+    box-shadow: #111111 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+/* 2.2.1 - card2 */
+.card2
+{
+    text-align: center;
+    width: 26%;
+    float: left;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    margin-right: 2.5rem;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.card2:hover
+{
+    background-color: #1769FF;
+    color: #ffffff;
+    box-shadow: #111111 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+/* 2.2.2 - card3 */
+.card3
+{
+    text-align: center;
+    width: 25%;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.card3:hover
+{
+    background-color: #1769FF;
+    color: #ffffff;
+    box-shadow: #111111 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+
+/* 2.0 - Service Area */
+
+/* 3.0 - Portfolio Area */
+
+.portfolio-section
+{
+    width: 100%;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f0f0f0;
+}
+/* 3.1 - heading */
+.portfolio-heading
+{
+    padding-top: 10rem;
+    text-align: center;
+}
+.portfolio-heading h2
+{
+    font-size: 2rem;
+}
+/* 3.2 - portfolio-card */
+.portfolio-card
+{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+/* 3.2.0 - portfolio-card1 */
+.portfolio-card1
+{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-right: 3.2rem;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1769FF;
+    cursor: pointer;
+} 
+.portfolio-card1:hover .overlay
+{
+    opacity: 1;
+} 
+.overlay-text
+{
+    color: white;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* 3.2.1 - portfolio-card2 */
+.portfolio-card2
+{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-right: 3.2rem;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1769FF;
+    cursor: pointer;
+} 
+.portfolio-card2:hover .overlay
+{
+    opacity: 1;
+} 
+.overlay-text
+{
+    color: white;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* 3.2.2 - portfolio-card3 */
+.portfolio-card3
+{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: #dadada 0.2rem 0.2rem 1rem;
+    transition: 0.5s;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1769FF;
+    cursor: pointer;
+} 
+.portfolio-card3:hover .overlay
+{
+    opacity: 1;
+} 
+.overlay-text
+{
+    color: white;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* 3.0 - Portfolio Area */
+
+/* 4.0 - Hire me */
+
+.hire-me
+{
+    display: inline-block;
+    padding: 3rem 0;
+    background: #111111;
+    color: #ffffff;
+}
+.left
+{
+    width: 76%;
+    float: left;
+    margin-right: 4rem;
+}
+.right
+{
+    width: 18%;
+    overflow: hidden;
+}
+.right a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.right p
+{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.6rem 0.3rem;
+    border: 1px solid #ffffff;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+.right p:hover
+{
+    color: #111111;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+/* 4.0 - Hire me */
+
+/* 5.0 - Contact Area */
+
+.contact-section
+{
+    display: inline-block;
+    margin: 5rem 0;
+}
+/* 5.1 - heading */
+.contact-heading
+{
+    padding-top: 5rem;
+    text-align: center;
+}
+.contact-heading h2
+{
+    font-size: 2rem;
+}
+/* 5.2 - main contact */
+.main-contact
+{
+    margin-top: 2rem;
+}
+/* 5.2.0 - left contact */
+.left-contact
+{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-right: 2.5rem;
+    padding-right: 3.5rem;
+    border-right: 5px solid #111111;
+}
+.left-contact p
+{
+    margin: 1rem 0 2rem;
+}
+/* 5.2.1 - right contact */
+.right-contact
+{
+    width: 45%;
+    overflow: hidden;
+}
+.right-contact-heading
+{
+    text-align: center;
+}
+.right-contact-heading p
+{
+    margin: 2rem 0 4rem;
+}
+/* 5.2.1.0 - contact form */
+.contact-form
+{
+    width: 100%;
+}
+/* 5.2.1.0.0 - form */
+#myform
+{
+    width: 100%;
+    text-align: center;
+}
+label
+{
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+/* firstname */
+.text1
+{
+    width: 60%;
+    height: 2rem;
+    margin-left: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+/* lastname */
+.text2
+{
+    width: 60%;
+    height: 2rem;
+    margin-left: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+/* email address */
+input[type=email]
+{
+    width: 60%;
+    height: 2rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+/* submit button */
+input[type=submit]
+{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 2px solid #111111;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    transition: 0.5s;
+    float: right;
+    margin-right: 3.5rem;
+}
+input[type=submit]:hover
+{
+    background: #111111;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* 5.0 - Contact Area */
+
+/* 6.0 - Footer Area */
+
+footer
+{
+    background: #111111;
+    padding: 2rem 0;
+    text-align: center;
+}
+/* 6.1 - get in touch */
+.get-in-touch
+{
+    margin-bottom: 3rem;
+}
+.get-in-touch ul li
+{
+    list-style: none;
+    display: inline;
+    margin: 0.3rem;
+}
+.get-in-touch ul li a i
+{
+    font-size: 2rem;
+    color: #9da09d;
+    transition: 0.5s;
+}
+.get-in-touch ul li a i:hover
+{
+    color: #ffffff;
+    transition: 0.5s;
+}
+/* 6.2 - copyright */
+.portfolio
+{
+    text-decoration: none;
+    color: #9da09d;
+    font-weight: 800;
+    transition: 0.5s;
+}
+.portfolio:hover
+{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* 6.0 - Footer Area */
+
+
+/* 7.0 - Scroll To Top Button */
+
+#back-to-top-btn
+{
+    display: none;
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+    border: none;
+    border-radius: 50%;
+    padding: 16px 21px;
+    cursor: pointer;
+    z-index: 99;
+    background-color: #cccccc;
+}
+#back-to-top-btn i
+{
+    color: #111111;
+}
+
+/* 7.0 - Scroll To Top Button */
